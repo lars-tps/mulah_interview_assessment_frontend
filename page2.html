@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page 2</title>
+    <link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+    <main>
+        <h1 class="page2-title">MULAH</h1>
+        <script src="processForm.js"></script>
+        <form onsubmit="return handleClick()">
+            <h2 style="font-size: 3vw;">Registration</h2>
+            <p style="font-style: italic;">Please fill up your details</p>
+            <p>Name</p>
+            <input type="text" id="name" name="name" placeholder="Enter name">
+            <p>Birthday</p>
+            <div class="birth-date-input">
+                <input type="text" id="birthday-day" name="birthday-day" placeholder="DD" maxlength="2">
+                <input type="text" id="birthday-month" name="birthday-month" placeholder="MM" maxlength="2">
+                <input type="text" id="birthday-year" name="birthday-year" placeholder="YYYY" maxlength="4">
+            </div>
+            <p>Email</p>
+            <input type="email" id="email" name="email" placeholder="Email address">
+            <input class="no-email-checkbox" type="checkbox" id="no-email" name="no-email">No email address </input>
+        
+            <button type="submit" class="btn-submit">Continue</button>
+        </form>
+    </main>
+</body>
+<hr>
+<footer>
+    <p>Powered by MulahRewards.com</p>
+  </footer>
