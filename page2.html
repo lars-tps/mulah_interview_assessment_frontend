@@ -9,8 +9,7 @@
 <body>
     <main>
         <h1 class="page2-title">MULAH</h1>
-        <script src="processForm.js"></script>
-        <form onsubmit="return handleClick()">
+        <form action="" id="details-form">
             <h2 style="font-size: 3vw;">Registration</h2>
             <p style="font-style: italic;">Please fill up your details</p>
             <p>Name</p>
@@ -25,8 +24,9 @@
             <input type="email" id="email" name="email" placeholder="Email address">
             <input class="no-email-checkbox" type="checkbox" id="no-email" name="no-email">No email address </input>
         
-            <button type="submit" class="btn-submit">Continue</button>
+            <button type="submit" value="submit" class="btn-submit">Continue</button>
         </form>
+        <script src="processForm.js"></script>
     </main>
 </body>
 <hr>
